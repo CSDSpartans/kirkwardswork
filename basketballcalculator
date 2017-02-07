@@ -11,17 +11,17 @@ schedule = {
   10:"West Montgomery"
 }
 
+gameswon = int(input("How many games have you won? "))
+gameslost = int(input("How many games have you lost? "))
+gamesplayed = gameswon + gameslost
 
 def percentfinder():
-  gameswon = int(input("How many games have you won? "))
-  gameslost = int(input("How many games have you lost? "))
-  gamesplayed = gameswon + gameslost
   winpercent = gameswon / gamesplayed * 100
   print("Your win percentage is " + str(winpercent) + "%")
   print(winpercent)
   #DOES NOT WORK:
-  #print("Your win percentage is " + winpercent) 
+  #print("Your win percentage is " + winpercent)
   
-  def gamesleft(): 
-    numgamesleft = len(schedule) - gamesplayed 
-  print("number of games left is " +str(numgamesleft))
+def gamesleft():
+  numgamesleft = len(schedule) - gamesplayed
+  print("Number of games left is " + str(numgamesleft))
