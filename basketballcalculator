@@ -8,7 +8,23 @@ schedule = {
   7:"Bessemer City",
   8:"Carolina International",
   9:"Lincoln Charter",
-  10:"West Montgomery"
+  10:"West Montgomery", 
+  11:"Central Carrabus",  
+  12:"North Stanly", 
+  13:"Highland Tech", 
+  14:"Bradford Prep", 
+  15:"Peidmont Community Charter", 
+  16:"Pine Lake Prep", 
+  17:"Thomas Jefferson", 
+  18:"Cherryville",
+  19:"Moutain Island Charter", 
+  20:"Bessemer City", 
+  21:"Lincoln Charter", 
+  22:"Highland Tech", 
+  23:"Peidmont Community Charter", 
+  24:"Moutain Island Charter", 
+  25:"TBD", 
+  26:"TBD"
 }
 
 gameswon = int(input("How many games have you won? "))
